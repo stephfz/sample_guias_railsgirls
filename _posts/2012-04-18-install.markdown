@@ -1,0 +1,75 @@
+---
+layout: default
+title: Instale Ruby on Rails
+permalink: install
+---
+
+# Instale Ruby on Rails
+<!-- <span class="muted">Cooking time: 5min active / 15-30min passive</span> -->
+
+Antes de comenzar a construir tus aplicaciones con Ruby on Rails, tienes que instalar en tu computadora, algunos softwares con su respectivo entorno de desarrollo.
+
+Sigue las instrucciones para tu sistema operativo, si tienes problemas con la instalación, no entres en pánico. Infórmenos en el evento que podremos resolverlo juntos :) .
+
+* [Instalacion en OS X](#instalacion_en_os_x)
+* [Instalacion en Windows](#instalacion_en_windows)
+* [Instalacion en Ubuntu](#instalacion_en_ubuntu)
+
+<hr />
+
+## Instalacion en OS X
+
+**Paso 1.** Vamos a verificar la versión del sistema operativo.
+
+Click en el menú Apple y elija *Acerca de este Mac (About this Mac)*.
+
+![Apple menu](/images/1.png "Apple menu")
+
+**Paso 2.** En la ventana encontrarás la version de tu sistema operativo. Si el número de version inicia con 10.6, 10.7 o 10.8 esta guía es para ti. Si no es así, entonces tienes que actualizar tu sistema operativo.
+
+![About this Mac dialog](/images/2.png "About this Mac dialog")
+
+**Paso 3.** Descarga el RailsInstaller para la versión de tu sistema operativo (OS X):
+
+* [RailsInstaller para 10.7 y 10.8](http://railsinstaller.s3.amazonaws.com/RailsInstaller-1.0.4-osx-10.7.app.tgz) <span class="muted">(325MB)</span>
+* [RailsInstaller para 10.6](http://railsinstaller.s3.amazonaws.com/RailsInstaller-1.0.4-osx-10.6.app.tgz) <span class="muted">(224MB)</span>
+
+Haga doble click en el archivo descargado y esto se descomprimirá en el directorio actual. Ubique el archivo descomprimido 'RailsInstaller-1.0.3-osx-10.7.app' o 'RailsInstaller-1.0.3-osx-10.6.app' y sigue las instrucciones. Se abrirá un archivo README con título 'Rails Installer OS X'. Por favor **ignore** las instrucciones de ese archivo.
+
+**Último paso.** Instale un editor de texto para editar tus archivos de código. Para este evento recomendamos el editor de texto Sublime Text.
+
+* [Descarga e instala Sublime Text](http://www.sublimetext.com/2)
+
+Listo. Ahora usted ya debería tener instalado Ruby on Rails. Felicidades!
+
+<hr />
+
+## Instalacion en Windows
+
+Descarga [RailsInstaller](http://rubyforge.org/frs/download.php/76855/railsinstaller-2.2.0.exe) y ejecutelo. Siga las instrucciones usando las opciones por defecto.
+
+La instalación de Git y SSH-keys son requeridos si usted quiere [poner su aplicación en linea con Heroku](/heroku).
+
+**Último paso.** También es necesario un editor de textos para editar tus archivos de código. Para este evento recomendamos el editor de texto Sublime Text.
+
+* [Descarga e instala Sublime Text](http://www.sublimetext.com/2)
+
+Listo. Ahora usted ya debería tener instalado Ruby on Rails. Felicidades!
+
+<hr />
+
+## Instalacion en Ubuntu
+
+Para instalar Ruby on Rails sólo necesita copiar y pegar esta linea en la terminal y presione "Enter". Disfrute los textos volando en su pantalla, esto tomará un poco de tiempo. Recomendamos una bebida refrescante antes de iniciar la instalación.
+
+{% highlight sh %}
+bash < <(curl -s https://raw.github.com/railsgirls/installation-scripts/master/rails-install-ubuntu.sh)
+{% endhighlight %}
+
+**Último paso.** También es necesario un editor de textos para editar tus archivos de código. Para este evento recomendamos el editor de texto Sublime Text.
+
+* [Descarga e instala Sublime Text](http://www.sublimetext.com/2)
+
+Listo. Ahora usted ya debería tener instalado Ruby on Rails. Felicidades!
+
+<hr />
